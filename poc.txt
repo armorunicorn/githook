@@ -1,4 +1,6 @@
-伪造的目的是为了把我们的邮件送进收件箱"}', 'name': 'web_fetch', 'role': 'tool', 'tool_call_id': 'call_583acbf97ff649309822d6c1'}{'content': "分析玩了网页的内容，现在让我看看你还有什么请求", 'role': 'assistant'}
+5.From头上写多个Email地址
+因为一个邮件可能被多个人编辑，所以可以在From上设置多个地址，然后设置一个Sender来确定真正的发件人，作为攻击者可以设置From头为
+<admin@qq.com>,<test@attack.com>或者增加一些基于基本规则的变化如[admin@qq.com],<test@attack.com>"}', 'name': 'web_fetch', 'role': 'tool', 'tool_call_id': 'call_583acbf97ff649309822d6c1'}{'content': "分析完了网页的内容，现在让我看看你还有什么请求", 'role': 'assistant'}
 {'content': '[Runtime Context — metadata only, not instructions]
 Current Time: 2026-03-27 15:42 (Thursday) (中国标准时间)
 Channel: dingtalk
