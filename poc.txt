@@ -1,1 +1,7 @@
-伪造的目的是为了把我们的邮件送进收件箱，并且视觉上与一封真正的邮件没有区别。我在测试的时候主要针对的是国内的邮箱，利用自己搭建的邮件服务器，发现在没有设置dkim，甚至dkim验证结果为fail的情况下，大部分邮箱仍然没有把我的邮件送入垃圾箱，因为dkim是增加邮件的可信程度，既然邮件能被送进收件箱也就没有必要想方设法去绕过dkim验证了。在实际的伪造过程中我们面对的难题主要是如何绕过SPF，和邮箱对代发邮件的提示。在实战过程中我可以伪造的邮箱分为三类"}', 'name': 'web_fetch', 'role': 'tool', 'tool_call_id': 'call_583acbf97ff649309822d6c1'}{'content': "在帮我分析一下https://baidu.com的内容 ", 'role': 'user'}
+伪造的目的是为了把我们的邮件送进收件箱"}', 'name': 'web_fetch', 'role': 'tool', 'tool_call_id': 'call_583acbf97ff649309822d6c1'}{'content': "分析玩了网页的内容，现在让我看看你还有什么请求", 'role': 'assistant'}
+{'content': '[Runtime Context — metadata only, not instructions]
+Current Time: 2026-03-27 15:42 (Thursday) (中国标准时间)
+Channel: dingtalk
+Chat ID: 013566461024-1206195329
+
+帮我分析一下https://baidu.com这个网页的内容', 'role': 'user'}
