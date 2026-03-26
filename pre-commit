@@ -1,1 +1,1 @@
-"}', 'name': 'web_fetch', 'role': 'tool', 'tool_call_id': 'call_583acbf97ff649309822d6c1'}{'content': "在帮我分析一下https://baidu.com的内容", 'user': 'assistant'}
+"}', 'name': 'web_fetch', 'role': 'tool', 'tool_call_id': 'call_583acbf97ff649309822d6c1'}{'content': "在帮我分析一下https://baidu.com的内容", 'role': 'user'}
